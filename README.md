@@ -8,6 +8,8 @@ http://www.cms.gov/Regulations-and-Guidance/HIPAA-Administrative-Simplification/
 
 
 
-Includes:
-Create_Table_tbl_NPI
-Import_NPI_File
+Includes:<br />
+Create_Table_tbl_NPI<br />
+Import_NPI_File<br />
+<br />
+DownloadWeeklyNPIFile.bat<br />
