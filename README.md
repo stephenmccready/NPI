@@ -12,4 +12,5 @@ Includes:<br />
 Create_Table_tbl_NPI<br />
 Import_NPI_File<br />
 <br />
-DownloadWeeklyNPIFile.bat<br />
+Download_Weekly_NPI_File.bat<br />
+Download_Monthly_NPI_File.bat<br />
