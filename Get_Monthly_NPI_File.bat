@@ -1,0 +1,15 @@
+if "%DATE:~5,2%"=="1/" set "MMM=Jan"
+if "%DATE:~5,2%"=="2/" set "MMM=Feb"
+if "%DATE:~5,2%"=="3/" set "MMM=Mar"
+if "%DATE:~5,2%"=="4/" set "MMM=Apr"
+if "%DATE:~5,2%"=="5/" set "MMM=May"
+if "%DATE:~5,2%"=="6/" set "MMM=Jun"
+if "%DATE:~5,2%"=="7/" set "MMM=Jul"
+if "%DATE:~5,2%"=="8/" set "MMM=Aug"
+if "%DATE:~5,2%"=="9/" set "MMM=Sep"
+if "%DATE:~5,2%"=="10" set "MMM=Oct"
+if "%DATE:~5,2%"=="11" set "MMM=Nov"
+if "%DATE:~5,2%"=="12" set "MMM=Dec"
+set "YYYY=%DATE:~10,4%"
+
+bitsadmin.exe /transfer "NPI download" http://nppes.viva-it.com/NPPES_Data_Dissemination_%MMM%_%YYYY%.zip C:\NPPES_Data_Dissemination_%MMM%_%YYYY%.zip
