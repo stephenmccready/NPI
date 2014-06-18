@@ -106,7 +106,6 @@ Otology & Neurotology	207YX0901X
 Pediatric Otolaryngology	207YP0228X 
 Plastic Surgery within the Head & Neck	207YX0007X 
 Sleep Medicine	207YS0012X 
-Pathology	
 Anatomic Pathology	207ZP0101X 
 Anatomic Pathology & Clinical Pathology	207ZP0102X 
 Blood Banking & Transfusion Medicine	207ZB0001X 
@@ -157,7 +156,6 @@ Sports Medicine	2081S0010X
 Plastic Surgery	208200000X 
 Plastic Surgery Within the Head and Neck	2082S0099X 
 Surgery of the Hand	2082S0105X 
-Preventive Medicine	
 Aerospace Medicine	2083A0100X 
 Clinical Informatics	2083C0008X 
 Medical Toxicology	2083T0002X 
@@ -166,7 +164,6 @@ Preventive Medicine/Occupational Environmental Medicine	2083P0500X
 Public Health & General Preventive Medicine	2083P0901X 
 Sports Medicine	2083S0010X 
 Undersea and Hyperbaric Medicine 	2083P0011X 
-Psychiatry & Neurology	
 Addiction Medicine	2084A0401X 
 Addiction Psychiatry	2084P0802X 
 Bariatric Medicine	2084B0002X 
@@ -187,10 +184,8 @@ Psychosomatic Medicine	2084P0015X
 Sleep Medicine	2084S0012X 
 Sports Medicine	2084S0010X 
 Vascular Neurology	2084V0102X 
-Pain Medicine	
 Interventional Pain Medicine	208VP0014X 
 Pain Medicine	208VP0000X 
-Radiology	
 Body Imaging	2085B0100X 
 Diagnostic Neuroimaging	2085D0003X 
 Diagnostic Radiology	2085R0202X 
