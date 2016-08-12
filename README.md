@@ -6,7 +6,8 @@ Process to load the National Plan and Provider Enumeration System (NPPES) [AKA N
 The NPI file (in csv format) and other related documentation can be obtained from here:
 https://www.cms.gov/Regulations-and-Guidance/HIPAA-Administrative-Simplification/NationalProvIdentStand/
 
-
+Files available for download here:
+http://download.cms.gov/nppes/NPI_Files.html
 
 Includes:<br />
 Create_Table_tbl_NPI.sql<br />
