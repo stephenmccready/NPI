@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='shortcut icon' href='images\favicon.ico' type='image/x-icon' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<div>Lookup of multiple NPI's - used to demonstrate asynchronous look up within a loop</div>
+<div id="container">
+</div>
+<script type="text/javascript">
+$(document).ready( function() {
+	var NPIArray = [];
+	NPIArray.push('1790175677'); //NATALIE BAKER
+	NPIArray.push('1679003206'); //AMANDA BARNHARD
+	NPIArray.push('1538322573'); //LAURA FREIMAN
+	NPIArray.push('1114227477'); //KRISTIN GATOUX
+	NPIArray.push('1447528781'); //TAMARA GRYNHEIM
+	NPIArray.push('1003917980'); //ALAN KADET
+	
+	for (var i = 0; i < NPIArray.length; i++) {
+		(function(index) {
+			var Url='https://cors-anywhere.herokuapp.com/https://npiregistry.cms.hhs.gov/api/?version=2.1&number=' + NPIArray[i];
+			$.ajax({
+				url: Url,
+				type:"GET",
+				success: function(result){
+					$('#container').append(result["results"][0]["number"]);
+					$('#container').append(' - ' + result["results"][0]["basic"]["name"] + '<br/>');
+				},
+				error:function(error){
+					alert('Error ${error}')
+				}
+			})
+		})(i);
+	}	
+});
+</script>
+</body>
+</html>
