@@ -1,0 +1,1 @@
+ALTER TABLE `tbl_NPI` ADD `lat_Mailing` FLOAT NULL AFTER `CERTIFICATION_DATE`, ADD `lng_Mailing` FLOAT NULL AFTER `lat_Mailing`, ADD `lat_Practice` FLOAT NULL AFTER `lng_Mailing`, ADD `lng_Practice` FLOAT NULL AFTER `lat_Practice`;
