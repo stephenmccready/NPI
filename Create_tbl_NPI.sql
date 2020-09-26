@@ -327,5 +327,6 @@ CREATE TABLE tbl_NPI (
 			HC_Prov_Taxonomy_Grp_12 VARCHAR(70),
 			HC_Prov_Taxonomy_Grp_13 VARCHAR(70),
 			HC_Prov_Taxonomy_Grp_14 VARCHAR(70),
-			HC_Prov_Taxonomy_Grp_15 VARCHAR(70)
+			HC_Prov_Taxonomy_Grp_15 VARCHAR(70),
+			Certification_Date VARCHAR(12)
 ) 
