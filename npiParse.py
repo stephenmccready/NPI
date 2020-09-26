@@ -1,4 +1,5 @@
-# parses out the records for a single state into multiple files of 10,000 rows each
+# parses out the records for a single state into files containing 5001 records
+# python npiParse.py
 import glob, os
 
 rowcount = 0
@@ -10,7 +11,7 @@ i = open("npidata_pfile_20050523-20200913.csv", "r", encoding="utf8")
 o = open(filename, "w", encoding="utf8")
 
 for row in i:
-  if rowcount > 10000:
+  if rowcount > 5000:
     o.close()
     filecount = filecount + 1
     filename = "HI" + str(filecount) + ".csv"
